@@ -1,0 +1,16 @@
+{
+  "name": "wba-build-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Martin Kadlec",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.38.0",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
